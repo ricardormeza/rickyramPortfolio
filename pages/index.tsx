@@ -22,7 +22,6 @@ type Props = {
   skills: Skill[];
   projects: Project[];
   socials: Social[];
-  
 }
 
 const Home =({pageInfo, experiences, projects, skills, socials}: Props) => {
