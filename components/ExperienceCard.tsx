@@ -17,7 +17,7 @@ export default function ExperienceCard({ experience }: Props) {
         space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center 
         bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer
         transition-opacity duration-200 overflow-hidden">
-            <motion.img 
+            {/* <motion.img 
             initial={{
                 y: -100,
                 opacity: 0,
@@ -31,7 +31,7 @@ export default function ExperienceCard({ experience }: Props) {
             // src='/images/image-rrm.jpg'
             alt='portfolio picture'
             
-            />
+            /> */}
             {/* width={300} height={300} */}
             <div className="px-0 md:px-8">
                 <h4 className="text-4xl font-light">{experience?.jobTitle}</h4>
